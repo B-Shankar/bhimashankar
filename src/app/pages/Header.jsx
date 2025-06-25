@@ -39,7 +39,7 @@ const Header = () => {
         {/* Profile Image */}
         <div className="relative flex-none md:w-64 md:h-64 h-24 w-24 bg-red-400 rounded-full overflow-hidden mb-4 md:mb-0">
           <Image
-            src="/me.jpg"
+            src="/me.png"
             alt="Bhimashankar"
             fill
             sizes="(max-width: 768px) 50vw,
