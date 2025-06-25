@@ -5,6 +5,8 @@ import FloatingBar from "@/components/FloatingBar";
 import About from "./pages/About";
 import DownloadCV from "./pages/DownloadCV";
 import Skills from "./pages/Skills";
+import Education from "./pages/Education";
+import Experience from "./pages/Experience";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         <About />
         <DownloadCV />
         <Skills />
+        <Experience />
+        <Education />
         <FloatingBar />
       </Background>
     </ThemeProvider>

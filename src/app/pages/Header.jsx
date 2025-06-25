@@ -19,14 +19,10 @@ const Header = () => {
         {/* Main Content */}
         <div className="flex flex-col md:w-9/12 text-center md:text-left">
         <h1
-          className="text-2xl md:text-5xl font-bold overflow-hidden whitespace-nowrap border-r-4 border-gray-600 inline-block"
+          className="text-2xl md:text-5xl font-bold"
           style={{
-            animation: "type 3s steps(28, end), blink 0.75s step-end infinite", // Adjusted steps for faster typing
-            display: "inline-block",
-            maxWidth: "25ch", // Limit the width to 20 characters
-            lineHeight: "1.0", // Adjust line height for better spacing
-            paddingBottom: "0.5rem", // Add padding to prevent clipping
-            fontFamily: "monospace", // Set font-family to monospace
+            lineHeight: "1.0",
+            paddingBottom: "0.5rem",
           }}
         >
           Hey, I'm Bhimashankar!
@@ -43,7 +39,7 @@ const Header = () => {
         {/* Profile Image */}
         <div className="relative flex-none md:w-64 md:h-64 h-24 w-24 bg-red-400 rounded-full overflow-hidden mb-4 md:mb-0">
           <Image
-            src="/Me.jpg"
+            src="/me.jpg"
             alt="Bhimashankar"
             fill
             sizes="(max-width: 768px) 50vw,
