@@ -4,7 +4,7 @@ import ToggleLight from "./icons/ToggleLight";
 import { useTheme } from "@/context/ThemeContext";
 
 const ToggleThemeBtn = () => {
-  const { toggleTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <button

@@ -133,14 +133,20 @@ const Skills = () => {
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="group flex flex-col items-center justify-center p-4 bg-gray-800 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:bg-white hover:shadow-lg"
+                        // className="group flex flex-col items-center justify-center p-4 bg-gray-800 rounded-lg shadow-md transition duration-300 transform hover:scale-105 hover:bg-white hover:shadow-lg"
+className="group flex flex-col items-center justify-center p-4
+  bg-white dark:bg-gray-800
+  rounded-lg shadow-md
+  transition duration-300 transform
+  hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-lg"
                     >
                         {skill.icon && (
                             <div className="mb-1 transition-transform duration-300 group-hover:rotate-[360deg]">
                                 {skill.icon}
                             </div>
                         )}
-                        <span className="text-sm font-medium text-white transition duration-300 group-hover:text-black group-hover:font-bold">
+                        {/* <span className="text-sm font-medium text-white transition duration-300 group-hover:text-black group-hover:font-bold"> */}
+                        <span className="text-sm font-medium text-gray-800 dark:text-white transition duration-300 group-hover:text-black dark:group-hover:text-white group-hover:font-bold">
                             {skill.name}
                         </span>
                     </div>

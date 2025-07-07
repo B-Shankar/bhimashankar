@@ -8,7 +8,12 @@ const jakartaSans = Plus_Jakarta_Sans({
 
 export const metadata = {
   title: "Bhimashankar Holkundi 👨‍💻🚀",
-  description: "Welcome to my tech hub—where ideas turn into slick, high-performance code. Full Stack Dev crafting clean, interactive & 🔥 experiences!",
+  description:
+    "Welcome to my tech hub—where ideas turn into slick, high-performance code. Full Stack Dev crafting clean, interactive & 🔥 experiences!",
+  verification: {
+    google: "TOCa55LC4Piws59KRSjobWt0KgJ_uwrCYiIPBoViJLk", // Your meta tag here
+  },
+  // https://search.google.com/u/4/search-console/welcome?utm_source=about-page
 };
 
 export default function RootLayout({ children }) {

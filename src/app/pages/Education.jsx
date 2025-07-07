@@ -92,7 +92,7 @@ const Education = () => {
 								width={48}
 								height={48}
 									alt="Priyadarshini Logo"
-									src="/education/cyf.jpeg"
+									src="/education/cyf.png"
 								/>
 							</span>
 						</div>

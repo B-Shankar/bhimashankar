@@ -12,12 +12,17 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
@@ -26,20 +31,23 @@ body {
 }
 
 @keyframes type {
-    from {
-      width: 0;
-    }
-    to {
-      width: 100%;
-    }
+  from {
+    width: 0;
   }
-  
-  @keyframes blink {
-    from,
-    to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: gray;
-    }
+
+  to {
+    width: 100%;
   }
+}
+
+@keyframes blink {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: gray;
+  }
+}
